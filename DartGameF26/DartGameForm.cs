@@ -5,8 +5,22 @@ namespace DartGameF26
         public DartGameForm()
         {
             InitializeComponent();
+            this.KeyDown += DartGameForm_KeyDown;
+         
         }
 
+
+
+
+
+
+
+
+        //Event Handlers Below---------------------------------------------------------------------
+        private void DartGameForm_KeyDown(object? sender, KeyEventArgs e)
+        {
+
+        }
         private void ExitButton_Click(object sender, EventArgs e)
         {
             this.Close();

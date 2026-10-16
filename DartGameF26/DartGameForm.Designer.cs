@@ -29,21 +29,21 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
-            pictureBox1 = new PictureBox();
+            DartPictureBox = new PictureBox();
             ExitButton = new Button();
             NewRoundButton = new Button();
             ReviewButton = new Button();
             ToolTip = new ToolTip(components);
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)DartPictureBox).BeginInit();
             SuspendLayout();
             // 
-            // pictureBox1
+            // DartPictureBox
             // 
-            pictureBox1.Location = new Point(12, 12);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(1150, 501);
-            pictureBox1.TabIndex = 1;
-            pictureBox1.TabStop = false;
+            DartPictureBox.Location = new Point(12, 12);
+            DartPictureBox.Name = "DartPictureBox";
+            DartPictureBox.Size = new Size(1150, 501);
+            DartPictureBox.TabIndex = 1;
+            DartPictureBox.TabStop = false;
             // 
             // ExitButton
             // 
@@ -86,16 +86,16 @@
             Controls.Add(ReviewButton);
             Controls.Add(NewRoundButton);
             Controls.Add(ExitButton);
-            Controls.Add(pictureBox1);
+            Controls.Add(DartPictureBox);
             Font = new Font("Source Code Pro", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             Name = "DartGameForm";
             Text = "Dart Game Simulator";
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)DartPictureBox).EndInit();
             ResumeLayout(false);
         }
 
         #endregion
-        private PictureBox pictureBox1;
+        private PictureBox DartPictureBox;
         private Button ExitButton;
         private Button NewRoundButton;
         private Button ReviewButton;
