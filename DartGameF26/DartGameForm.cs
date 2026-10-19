@@ -1,3 +1,10 @@
+/*
+Ashton R. Tolman
+Fall 2026
+RCET 3371
+Dart Game Form
+https://github.com/Ashton-Tolman/DartGameF26.git
+*/
 namespace DartGameF26
 {
     public partial class DartGameForm : Form
